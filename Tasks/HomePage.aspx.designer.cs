@@ -11,7 +11,7 @@ namespace Tasks
 {
 
 
-    public partial class PowerOfStudents
+    public partial class HomePage
     {
 
         /// <summary>
@@ -24,21 +24,21 @@ namespace Tasks
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// btnAdd control.
+        /// btn_1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAdd;
+        protected global::System.Web.UI.WebControls.Button btn_1;
 
         /// <summary>
-        /// meetBtn control.
+        /// btn_2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button meetBtn;
+        protected global::System.Web.UI.WebControls.Button btn_2;
     }
 }

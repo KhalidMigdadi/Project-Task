@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Tasks
 {
-    public partial class PowerOfStudents : System.Web.UI.Page
+    public partial class AdminPage : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -16,14 +16,12 @@ namespace Tasks
 
         protected void btnAll_Click(object sender, EventArgs e)
         {
-            Response.Redirect("AllBookTable.aspx");
+            Response.Redirect("addBook.aspx");
         }
 
         protected void btnMeet_Click(object sender, EventArgs e)
         {
-            Response.Redirect("MeetingsRoomTable.aspx");
+            Response.Redirect("AddMeetings.aspx");
         }
-
-        
     }
 }

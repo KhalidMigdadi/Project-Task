@@ -23,17 +23,29 @@ namespace Tasks
 
             foreach (string user in users)
             {
-                string[] userData = user.Split(' ');  
-                
+                string[] userData = user.Split(' ');
+
+
+
+                if (userData[1] == "Admin@gmail.com" && userData[2] == "123")
+                {
+                    Response.Redirect("AdminPage.aspx");
+                }
+
                 if (userData[1] == $"{email.Text}" && userData[2] == $"{pass.Text}")
                 {
-                    Response.Redirect("PowerOfStudents.aspx");
-                    result.Text = "Logged Successfully";
-                    result.Visible = true;
+                   
+                        Response.Redirect("PowerOfStudents.aspx");
+                        result.Text = "Logged Successfully";
+                        result.Visible = true;
+
+                    
                 }
+
+
             }
         }
 
-       
+
     }
 }
