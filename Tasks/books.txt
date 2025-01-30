@@ -2,3 +2,7 @@
 1002 Anas Male 26
 1003 Mohamad Male 19
 test Mohamad Romance 55
+1001 Book1 Romance 55
+1002 Book2 Romance2 555
+test Book5 Romance yes
+1119 Book5 Romance yes

@@ -24,6 +24,14 @@ namespace Tasks
             Response.Redirect("MeetingsRoomTable.aspx");
         }
 
-        
+        protected void searchBtn_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("SreachBook.aspx");
+        }
+
+        protected void prof_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("ProfilePage.aspx");
+        }
     }
 }

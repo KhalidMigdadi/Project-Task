@@ -27,19 +27,29 @@ namespace Tasks
 
 
 
-                if (userData[1] == "Admin@gmail.com" && userData[2] == "123")
-                {
-                    Response.Redirect("AdminPage.aspx");
-                }
 
                 if (userData[1] == $"{email.Text}" && userData[2] == $"{pass.Text}")
                 {
-                   
+
+                    if (userData[1] == "Admin@gmail.com" && userData[2] == "123")
+                    {
+                        Response.Redirect("AdminPage.aspx");
+                    }
+                    else
+                    {
                         Response.Redirect("PowerOfStudents.aspx");
                         result.Text = "Logged Successfully";
                         result.Visible = true;
 
-                    
+                    }
+
+
+                }
+                else
+                {
+                    result.Text = "invalid UserName or password";
+                    result.Visible = true;
+
                 }
 
 

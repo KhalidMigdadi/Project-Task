@@ -38,7 +38,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Borrow a Book</h5>
                                 <p class="card-text">Description of student 1.</p>
-                                <button class="btn btn-primary">Borrow a Book</button>
+                                <asp:Button ID="searchBtn" runat="server" OnClick="searchBtn_Click" Text="Search Book" class="btn btn-primary"/>
                             </div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">see all books</h5>
                                 <p class="card-text">Description of student 2.</p>
-                                <asp:Button ID="btnAll" runat="server" OnClick="btnAll_Click" Text="see all books" />
+                                <asp:Button ID="btnAll" runat="server" OnClick="btnAll_Click" Text="see all books" class="btn btn-primary" />
                             </div>
                         </div>
                     </div>
@@ -58,7 +58,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Feedback System</h5>
                                 <p class="card-text">Description of student 3.</p>
-                                <button class="btn btn-primary">Feedback System</button>
+                                <asp:Button ID="prof" runat="server" OnClick="prof_Click" Text="Edit Profile" class="btn btn-primary"/>
                             </div>
                         </div>
                     </div>
@@ -78,7 +78,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">See a meeting room</h5>
                                 <p class="card-text">Description of student 5.</p>
-                                <asp:Button ID="btnMeet" runat="server" OnClick="btnMeet_Click" Text="See a meeting room"/>
+                                <asp:Button ID="btnMeet" runat="server" OnClick="btnMeet_Click" Text="See a meeting room" class="btn btn-primary"/>
                             </div>
                         </div>
                     </div>

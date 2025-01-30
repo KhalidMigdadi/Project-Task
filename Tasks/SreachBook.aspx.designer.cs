@@ -11,7 +11,7 @@ namespace Tasks
 {
 
 
-    public partial class PowerOfStudents
+    public partial class SreachBook
     {
 
         /// <summary>
@@ -24,39 +24,39 @@ namespace Tasks
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// searchBtn control.
+        /// txtSearch control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button searchBtn;
+        protected global::System.Web.UI.WebControls.TextBox txtSearch;
 
         /// <summary>
-        /// btnAll control.
+        /// btnSearch control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAll;
+        protected global::System.Web.UI.WebControls.Button btnSearch;
 
         /// <summary>
-        /// prof control.
+        /// lblResult control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button prof;
+        protected global::System.Web.UI.WebControls.Label lblResult;
 
         /// <summary>
-        /// btnMeet control.
+        /// DynamicTable control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnMeet;
+        protected global::System.Web.UI.WebControls.Table DynamicTable;
     }
 }

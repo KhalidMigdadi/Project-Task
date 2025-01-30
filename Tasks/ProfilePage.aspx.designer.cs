@@ -11,7 +11,7 @@ namespace Tasks
 {
 
 
-    public partial class PowerOfStudents
+    public partial class ProfilePage
     {
 
         /// <summary>
@@ -24,6 +24,15 @@ namespace Tasks
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
+        /// searchTxt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox searchTxt;
+
+        /// <summary>
         /// searchBtn control.
         /// </summary>
         /// <remarks>
@@ -33,30 +42,39 @@ namespace Tasks
         protected global::System.Web.UI.WebControls.Button searchBtn;
 
         /// <summary>
-        /// btnAll control.
+        /// name control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAll;
+        protected global::System.Web.UI.WebControls.TextBox name;
 
         /// <summary>
-        /// prof control.
+        /// Email control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button prof;
+        protected global::System.Web.UI.WebControls.TextBox Email;
 
         /// <summary>
-        /// btnMeet control.
+        /// Password control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnMeet;
+        protected global::System.Web.UI.WebControls.TextBox Password;
+
+        /// <summary>
+        /// editBtn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button editBtn;
     }
 }

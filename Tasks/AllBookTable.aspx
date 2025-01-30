@@ -13,6 +13,13 @@
         <div>
             <asp:Table ID="DynamicTable" runat="server" CssClass="table table-striped"></asp:Table>
 
+            <table>
+                <thead>
+
+                </thead>
+                <tbody id="rew"></tbody>
+            </table>
+
         </div>
     </form>
 
